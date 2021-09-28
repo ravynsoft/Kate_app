@@ -25,4 +25,4 @@ build_task:
     - make build
   only_if: $CIRRUS_BRANCH == 'main'
   app_artifacts:
-    path: *.app.txz
+    path: "*.app.txz"
